@@ -1,0 +1,99 @@
+name: hasad_app
+description: منصة حصاد الزراعية - Agricultural Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Images
+  image_picker: ^1.0.4
+  cached_network_image: ^3.3.0
+
+  # Date & Localization
+  intl: ^0.20.2
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # Network
+  http: ^1.1.0
+
+  # Charts
+  fl_chart: ^1.1.1
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # UUID
+  uuid: ^4.2.1
+
+  # Location & Maps
+  geolocator: 14.0.2
+  google_maps_flutter: ^2.5.0
+
+  # Notifications
+  flutter_local_notifications: 21.0.0
+
+  # Image processing
+  image_cropper: 11.0.0
+  dotted_border: ^3.1.0
+
+  # UI Components
+  flutter_rating_bar: ^4.0.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.7
+
+  # Permissions
+  permission_handler: 12.0.1
+
+  # File handling
+  file_picker: 10.3.10
+  path_provider: ^2.1.1
+  pdf: ^3.11.1
+  printing: ^5.13.3
+
+  # Firebase
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  firebase_storage: ^13.1.0
+
+  # Connectivity
+  connectivity_plus: ^7.0.0
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Regular.ttf
+          weight: 400
+        # - asset: assets/fonts/Cairo-Medium.ttf   # مُعلق مؤقتاً
+        #   weight: 500
+        # - asset: assets/fonts/Cairo-SemiBold.ttf # مُعلق مؤقتاً
+        #   weight: 600
+        - asset: assets/fonts/Cairo-Bold.ttf
+          weight: 700

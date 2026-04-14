@@ -1,0 +1,9 @@
+location,area_dunum,irrigation_type,soil_type,current_season,intended_crop,market_condition,dynamic_price_jd,water_used,expected_profit_jd,recommended_crop,target_market,recommended_water,water_saved,recommended_profit_jd,Net_Profit_Difference_JD
+الأغوار,12,Drip,Clay,Winter,Tomato,خطر فائض عرض,0.42,800,2100,Potato,محلي,620,180,2650,550
+إربد,8,Sprinkler,Loam,Spring,Wheat,مستقر,0.28,450,1800,Barley,تصدير,380,70,2100,300
+المفرق,25,Flood,Sandy,Summer,Barley,فائض,0.19,1200,900,Melon,مصنع عصائر,950,250,1400,500
+عمان,5,Drip,Clay,Winter,Cucumber,مستقر,0.55,300,3200,Tomato,سوق الجملة عمان,260,40,3400,200
+البلقاء,18,Drip,Loam,Autumn,Olive,مستقر,2.10,400,4500,Olive,زيت محلي,380,20,4600,100
+الأغوار,10,Drip,Loam,Spring,Tomato,oversupply risk,0.40,750,2000,Green Bean,تصدير EU,580,170,2800,800
+عمان,7,Sprinkler,Clay,Summer,Lettuce,خطر فائض,0.95,280,1500,Herbs,مطاعم,210,70,2200,700
+إربد,20,Flood,Clay,Winter,Wheat,مستقر,0.26,900,2200,Wheat,محلي,900,0,2250,50
